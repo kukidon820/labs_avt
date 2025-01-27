@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Film1Font';
-    src: url('../fonts/EmilyAustin.ttf') format('truetype');
+    src: url('fonts/EmilyAustin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Film2Font';
-    src: url('../fonts/Banty Bold.ttf') format('truetype');
+    src: url('fonts/Banty Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Film3Font';
-    src: url('../fonts/a SignboardCpsNr BoldItalic.ttf') format('truetype');
+    src: url('fonts/a SignboardCpsNr BoldItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
