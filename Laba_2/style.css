@@ -49,10 +49,10 @@ a::after {
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: 0;
+  bottom: 0;  /** линия снизу**/
   left: 50%;
   background-color: green;
-  transition: all 0.3s ;
+  transition: width 0.3s ;
 }
 
 a:hover {
@@ -71,7 +71,7 @@ a:hover::after {
   border-radius: 50%;
   position: absolute;
   top: 0;
-  animation: bounce 3s  infinite;
+  animation: bounce 3s  forwards;
 }
 
 @keyframes bounce {
