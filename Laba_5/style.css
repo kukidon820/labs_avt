@@ -63,7 +63,7 @@ article:nth-child(9){
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1399px){
+@media screen and (min-width: 700px) and (max-width: 1439px){
   .adaptive{
     display: grid;
     grid-template-areas:
@@ -75,87 +75,8 @@ article:nth-child(9){
     "h i";
   }
 
-  /* Не выносить отдельно сдвижение по оси Ох!!! */
-  .pig:nth-child(2){
-    margin-left: -70px;
-    margin-top: 10px;
-  }
+ }
 
-  .pig:nth-child(3){
-    margin-left: -70px;
-    margin-top: 20px;
-  }
 
-  .pig:nth-child(4){
-    margin-left: -70px;
-    margin-top: 30px;
-  }
 
-  .pig:nth-child(5){
-    margin-left: -70px;
-    margin-top: 40px;
-  }
-}
 
-@media screen and (max-width: 699px){
-  .adaptive{
-    display: grid;
-    grid-template-areas:
-    "a"
-    "b"
-    "c"
-    "d"
-    "e"
-    "f"
-    "g"
-    "h"
-    "i";
-  }
-
-  /* Отступ побольше, чтобы влезло в экран */
-  .pig:nth-child(2){
-    margin-left: -210px;
-    margin-top: 10px;
-  }
-
-  .pig:nth-child(3){
-    margin-left: -210px;
-    margin-top: 20px;
-  }
-
-  .pig:nth-child(4){
-    margin-left: -210px;
-    margin-top: 30px;
-  }
-
-  .pig:nth-child(5){
-    margin-left: -210px;
-    margin-top: 40px;
-  }
-}
-
-.text-dec{
-  color: black;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  text-align: center;
-}
-
-.pig{
-  display: block;
-  width: 200px;
-  height: 180px;
-  border: 1px solid black;
-  transition: transform 0.3s ease;
-}
-
-img:hover{
-  z-index: 10;
-  transform: scale(1.2);
-}
-
-.wrapper{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
